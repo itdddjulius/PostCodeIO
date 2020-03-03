@@ -1,3 +1,16 @@
+<h1 align="center">Backend Engineer Coding Test</h1>
+<p>
+Thank you for applying to work with us. We ask all candidates to complete a coding test so we
+can fairly evaluate their technical capabilities.
+Please treat this test as a real feature request and treat the work as if it were being used by real
+users.
+We ask you to complete this test within a week. If you need more time, let us know and we can
+give you an extension. You will not be penalised for this.
+There are no gotchas or trick questions in this test, we just want you to complete it based on the
+instructions provided. We don’t expect you to go beyond the instructions provided.
+Feel free to get in touch and ask as many questions as you’d like.
+</p>
+
 <h1 align="center">
   <img src="https://img.ideal-postcodes.co.uk/Postcodes.io%20Logo@3x.png" alt="Postcodes.io">
 </h1>
