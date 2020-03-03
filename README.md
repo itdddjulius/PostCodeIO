@@ -11,6 +11,30 @@ instructions provided. We don’t expect you to go beyond the instructions provi
 Feel free to get in touch and ask as many questions as you’d like.
 </p>
 
+
+<h1 align="center">Postcode Checker</h1>
+<p>
+Your customer would like a simple web application to work out if a given postcode is within their
+service area.
+Create a form where the input is a UK postcode. When submitting the form, the response should
+tell the user if the postcode is whitelisted or not. There’s no need to add any styling.
+Requirements
+We are using the Postcodes.io REST API as our source for data. The service area is described by
+the following rules:
+1. Postcodes are grouped into larger blocks called LSOAs. This is returned from the API
+when we query a postcode. We want to whitelist any postcode in an LSOA starting
+"Southwark" or "Lambeth". Example postcodes for these LSOAs are SE1 7QD and SE1
+7QA respectively.
+2. Some postcodes are unknown by the API or may be served despite being outside of the
+whitelisted LSOAs. We need to be able to whitelist these anyway, even though the API
+does not recognise them. SH24 1AA and SH24 1AB are both examples of unknown
+postcodes that we want to serve.
+3. Any postcode not in the LSOA whitelist or the Postcode whitelist is not servable.
+Please note that no guarantees about the format of the input can be given, and the whitelists will
+need to be changed from time to time.
+Documentation for the Postcodes.io API can be found at http://postcodes.io
+</p>
+
 <h1 align="center">
   <img src="https://img.ideal-postcodes.co.uk/Postcodes.io%20Logo@3x.png" alt="Postcodes.io">
 </h1>
