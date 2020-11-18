@@ -102,7 +102,7 @@
     "nyc": "~15.0.0",
     "prettier": "~1.19.1",
     "random-string": "~0.2.0",
-    "semantic-release": "~15.14.0",
+    "semantic-release": "~17.2.3",
     "supertest": "~4.0.2"
   },
   "engines": {
